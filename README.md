@@ -1,0 +1,2 @@
+# StockManagementPlatform
+ Stock Management Platform

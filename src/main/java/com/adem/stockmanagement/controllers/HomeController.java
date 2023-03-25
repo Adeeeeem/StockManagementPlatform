@@ -11,4 +11,16 @@ public class HomeController
 	{
 		return "maquette_ams/index.html";
 	}
+
+	@RequestMapping("login")
+	public String login()
+	{
+		return "maquette_ams/page-login.html";
+	}
+
+	@RequestMapping("register")
+	public String register()
+	{
+		return "maquette_ams/page-register.html";
+	}
 }

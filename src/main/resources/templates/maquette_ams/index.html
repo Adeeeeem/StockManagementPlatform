@@ -13,6 +13,8 @@
     <!-- Chartist -->
     <link rel="stylesheet" th:href="@{/maquette_ams/plugins/chartist/css/chartist.min.css}">
     <link rel="stylesheet" th:href="@{/maquette_ams/plugins/chartist-plugin-tooltips/css/chartist-plugin-tooltip.css}">
+    <!-- Font Awesome Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" th:href="@{/maquette_ams/css/style.css}">
 
@@ -380,8 +382,8 @@
                             <i class="icon-notebook menu-icon"></i><span class="nav-text">Pages</span>
                         </a>
                         <ul aria-expanded="false">
-                            <li><a href="./page-login.html">Login</a></li>
-                            <li><a href="./page-register.html">Register</a></li>
+                            <li><a th:href="@{/login}">Login</a></li>
+                            <li><a th:href="@{/register}">Register</a></li>
                             <li><a href="./page-lock.html">Lock Screen</a></li>
                             <li><a class="has-arrow" href="javascript:void()" aria-expanded="false">Error</a>
                                 <ul aria-expanded="false">
